@@ -13,17 +13,10 @@ exports.oidcProvider = {
     AccessToken: 'jwt',
   },
   features: {
-    claimsParameter: true,
-    conformIdTokenClaims: true,
-    discovery: true,
-    encryption: true,
     introspection: true,
     registration: true,
-    oauthNativeApps: true,
-    request: true,
     revocation: true,
     sessionManagement: false,
     devInteractions: false,
-    pkce: {forcedForNative: true},
   }
 };
