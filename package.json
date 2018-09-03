@@ -1,6 +1,6 @@
 {
   "name": "egg-oidc-provider",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "",
   "eggPlugin": {
     "name": "oidcProvider"
@@ -14,7 +14,7 @@
     "change-case": "^3.0.2",
     "koa-mount": "^3.0.0",
     "lru-cache": "^4.1.3",
-    "oidc-provider": "^4.7.0"
+    "oidc-provider": "^4.8.0"
   },
   "devDependencies": {
     "autod": "^3.0.0",

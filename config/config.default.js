@@ -7,7 +7,6 @@
  */
 
 exports.oidcProvider = {
-  issuer: "http://localhost:3000",
   formats: {
     default: 'opaque',
     AccessToken: 'jwt',
